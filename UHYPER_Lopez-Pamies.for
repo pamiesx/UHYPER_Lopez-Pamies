@@ -1,9 +1,24 @@
 !**********************************************************************
-! Description:
+! Legal notice: UHYPER_Lopez-Pamies.for (Windows)
+!
+! Copyright (C) 2018 Oscar Lopez-Pamies (pamies@illinois.edu)
 !
 ! This ABAQUS UHYPER subroutine implements the incompressible 
-! hyperelastic model proposed introduced in [1]. The present subroutine implements
+! hyperelastic model proposed in [1]. The present subroutine implements
 ! specifically the two-term version of this model (see eq. (13) in [1])
+!
+! This program is free software: you can redistribute it and/or modify
+! it under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version.
+!
+! This program is distributed in the hope that it will be useful,
+! but WITHOUT ANY WARRANTY; without even the implied warranty of
+! MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+! GNU General Public License for more details.
+!
+! You should have received a copy of the GNU General Public License
+! along with this program.  If not, see https://www.gnu.org/licenses/.
 !
 !**********************************************************************
 ! Usage:
@@ -25,7 +40,7 @@
 ! (AMU1 >= 0, AMU2 >= 0). The two exponents ALPHA1, ALPHA2 are real 
 ! numbers chosen so that the resulting strain energy is trongly
 ! elliptic (see eq. (22) in [1]). This is left to the user to check.
-
+!
 !**********************************************************************
 ! Additional information:
 !
